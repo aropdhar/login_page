@@ -1,0 +1,186 @@
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.input_main{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    background: #eeee;
+    width: 450px;
+    margin: 160px auto 0 auto;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 0 8px rgba(0,0,0,0.6);
+}
+
+.email_input{
+    margin-top: 10px;
+    width: 350px;
+    padding: 12px 0 12px 10px;
+    outline: none;
+    border-radius: 10px;
+    border: 1px solid #000;
+}
+
+.name_input{
+    margin-top: 10px;
+    width: 350px;
+    padding: 12px 0 12px 10px;
+    outline: none;
+    border-radius: 10px;
+    border: 1px solid #000;
+}
+
+
+.number_input{
+    margin-top: 10px;
+    width: 350px;
+    padding: 12px 0 12px 10px;
+    outline: none;
+    border-radius: 10px;
+    border: 1px solid #000;
+}
+
+.btn{
+
+    display: flex;
+    column-gap: 20px;
+    align-items: center;
+}
+
+.btn1{
+
+    background: #856802;
+    padding: 12px 30px;
+    color: 20px;
+    font-weight: 600;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.btn2{
+
+    background: #856802;
+    padding: 12px 30px;
+    color: 20px;
+    font-weight: 600;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.name_result{
+   
+    margin-top: 10px;
+    width: 350px;
+    outline: none;
+    border-radius: 10px;
+    opacity: 0;
+
+}
+
+.email_result{
+
+    margin-top: 10px;
+    width: 350px;
+    outline: none;
+    border-radius: 10px;
+    opacity: 0;
+}
+
+.password_result{
+
+    margin-top: 10px;
+    width: 350px;
+    outline: none;
+    border-radius: 10px;
+    opacity: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* media query  */
+
+@media(max-width:768px){
+
+    .input_main{
+
+        width: 300px;
+    }
+
+    
+    .email_input{
+
+        width: 260px;
+        
+    }
+
+    .name_input{
+        width: 260px;
+
+    }
+
+
+    .number_input{
+        width: 260px;
+        
+    }
+    
+    .name_section{
+
+        margin-left: 12px;
+    }
+
+    .email_section{
+
+        margin-left: 12px;
+    }
+
+    .password_section{
+
+        margin-left: 12px;
+    }
+    
+    .name_result{
+   
+        width: 260px;
+    }
+    
+    .email_result{
+    
+   
+        width: 260px;
+    }
+    
+    .password_result{
+    
+        width: 260px;
+
+    }
+
+}
